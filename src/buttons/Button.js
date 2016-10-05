@@ -68,7 +68,7 @@ const Button = ({
         name={icon.name} />
     )
   }
-  if (!Component && Platform.OS === 'ios') {
+  if (!Component && (Platform.OS === 'ios' || Platform.OS === 'windows')) {
     Component = TouchableHighlight
   }
   if (!Component && Platform.OS === 'android') {

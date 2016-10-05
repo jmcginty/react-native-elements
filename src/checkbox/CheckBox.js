@@ -96,6 +96,9 @@ styles = StyleSheet.create({
       ios: {
         fontWeight: 'bold'
       },
+      windows: {
+        fontWeight: 'bold'
+      },
       android: {
         fontFamily: fonts.android.bold
       }
